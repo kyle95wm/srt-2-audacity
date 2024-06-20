@@ -18,20 +18,24 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/kyle95wm/srt-2-audacity.git
-cd srt-2-audacity```
-
+cd srt-2-audacity
+```
 
 ## Usage
 
 To use the script, run it from the command line with the following syntax:
 
-```python3 2audacity.py <inputfile.srt> <outputfile.txt>```
+```bash
+python3 2audacity.py <inputfile.srt> <outputfile.txt>
+```
 
-## Example
+### Example
 
-```python3 2audacity.py "AlRawabi School for Girls_S01E01_School Was My Happy Place.srt" "output-labels.txt"```
+```bash
+python3 2audacity.py "AlRawabi School for Girls_S01E01_School Was My Happy Place.srt" "output-labels.txt"
+```
 
-This command will read the SRT file AlRawabi School for Girls_S01E01_School Was My Happy Place.srt and generate an Audacity label file output-labels.txt.
+This command will read the SRT file `AlRawabi School for Girls_S01E01_School Was My Happy Place.srt` and generate an Audacity label file `output-labels.txt`.
 
 ## Primary Use Case
 
@@ -43,4 +47,4 @@ If you would like to contribute to this project, feel free to fork the repositor
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
