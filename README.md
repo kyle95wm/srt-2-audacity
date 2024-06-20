@@ -18,7 +18,7 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/kyle95wm/srt-2-audacity.git
-cd srt-2-audacity
+cd srt-2-audacity```
 
 
 ## Usage
