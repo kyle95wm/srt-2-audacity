@@ -26,13 +26,13 @@ cd srt-2-audacity
 To use the script, run it from the command line with the following syntax:
 
 ```bash
-python3 2audacity.py <inputfile.srt> <outputfile.txt>
+python3 2audacity_r2.py <inputfile.srt> <outputfile.txt>
 ```
 
 ### Example
 
 ```bash
-python3 2audacity.py "AlRawabi School for Girls_S01E01_School Was My Happy Place.srt" "output-labels.txt"
+python3 2audacity_r2.py "AlRawabi School for Girls_S01E01_School Was My Happy Place.srt" "output-labels.txt"
 ```
 
 This command will read the SRT file `AlRawabi School for Girls_S01E01_School Was My Happy Place.srt` and generate an Audacity label file `output-labels.txt`.
